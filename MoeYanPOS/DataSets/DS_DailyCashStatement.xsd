@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_DailyCashStatement" targetNamespace="http://tempuri.org/DS_DailyCashStatement.xsd" xmlns:mstns="http://tempuri.org/DS_DailyCashStatement.xsd" xmlns="http://tempuri.org/DS_DailyCashStatement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_DailyCashStatement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_DailyCashStatement" msprop:Generator_UserDSName="DS_DailyCashStatement">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DS_DailyCashStatement" msprop:Generator_TableClassName="DS_DailyCashStatementDataTable" msprop:Generator_TableVarName="tableDS_DailyCashStatement" msprop:Generator_RowChangedName="DS_DailyCashStatementRowChanged" msprop:Generator_TablePropName="_DS_DailyCashStatement" msprop:Generator_RowDeletingName="DS_DailyCashStatementRowDeleting" msprop:Generator_RowChangingName="DS_DailyCashStatementRowChanging" msprop:Generator_RowEvHandlerName="DS_DailyCashStatementRowChangeEventHandler" msprop:Generator_RowDeletedName="DS_DailyCashStatementRowDeleted" msprop:Generator_RowClassName="DS_DailyCashStatementRow" msprop:Generator_UserTableName="DS_DailyCashStatement" msprop:Generator_RowEvArgName="DS_DailyCashStatementRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Opening" msprop:Generator_ColumnVarNameInTable="columnOpening" msprop:Generator_ColumnPropNameInRow="Opening" msprop:Generator_ColumnPropNameInTable="OpeningColumn" msprop:Generator_UserColumnName="Opening" type="xs:string" minOccurs="0" />
+              <xs:element name="CashSale" msprop:Generator_ColumnVarNameInTable="columnCashSale" msprop:Generator_ColumnPropNameInRow="CashSale" msprop:Generator_ColumnPropNameInTable="CashSaleColumn" msprop:Generator_UserColumnName="CashSale" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditSale" msprop:Generator_ColumnVarNameInTable="columnCreditSale" msprop:Generator_ColumnPropNameInRow="CreditSale" msprop:Generator_ColumnPropNameInTable="CreditSaleColumn" msprop:Generator_UserColumnName="CreditSale" type="xs:string" minOccurs="0" />
+              <xs:element name="Other" msprop:Generator_ColumnVarNameInTable="columnOther" msprop:Generator_ColumnPropNameInRow="Other" msprop:Generator_ColumnPropNameInTable="OtherColumn" msprop:Generator_UserColumnName="Other" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstTimePaymentToMain" msprop:Generator_ColumnVarNameInTable="columnFirstTimePaymentToMain" msprop:Generator_ColumnPropNameInRow="FirstTimePaymentToMain" msprop:Generator_ColumnPropNameInTable="FirstTimePaymentToMainColumn" msprop:Generator_UserColumnName="FirstTimePaymentToMain" type="xs:string" minOccurs="0" />
+              <xs:element name="SecondTimePaymentToMain" msprop:Generator_ColumnVarNameInTable="columnSecondTimePaymentToMain" msprop:Generator_ColumnPropNameInRow="SecondTimePaymentToMain" msprop:Generator_ColumnPropNameInTable="SecondTimePaymentToMainColumn" msprop:Generator_UserColumnName="SecondTimePaymentToMain" type="xs:string" minOccurs="0" />
+              <xs:element name="ThirdTimePaymentToMain" msprop:Generator_ColumnVarNameInTable="columnThirdTimePaymentToMain" msprop:Generator_ColumnPropNameInRow="ThirdTimePaymentToMain" msprop:Generator_ColumnPropNameInTable="ThirdTimePaymentToMainColumn" msprop:Generator_UserColumnName="ThirdTimePaymentToMain" type="xs:string" minOccurs="0" />
+              <xs:element name="PettyCash" msprop:Generator_ColumnVarNameInTable="columnPettyCash" msprop:Generator_ColumnPropNameInRow="PettyCash" msprop:Generator_ColumnPropNameInTable="PettyCashColumn" msprop:Generator_UserColumnName="PettyCash" type="xs:string" minOccurs="0" />
+              <xs:element name="OtherPayment" msprop:Generator_ColumnVarNameInTable="columnOtherPayment" msprop:Generator_ColumnPropNameInRow="OtherPayment" msprop:Generator_ColumnPropNameInTable="OtherPaymentColumn" msprop:Generator_UserColumnName="OtherPayment" type="xs:string" minOccurs="0" />
+              <xs:element name="GetAmt" msprop:Generator_ColumnVarNameInTable="columnGetAmt" msprop:Generator_ColumnPropNameInRow="GetAmt" msprop:Generator_ColumnPropNameInTable="GetAmtColumn" msprop:Generator_UserColumnName="GetAmt" type="xs:string" minOccurs="0" />
+              <xs:element name="PaidAmt" msprop:Generator_ColumnVarNameInTable="columnPaidAmt" msprop:Generator_ColumnPropNameInRow="PaidAmt" msprop:Generator_ColumnPropNameInTable="PaidAmtColumn" msprop:Generator_UserColumnName="PaidAmt" type="xs:string" minOccurs="0" />
+              <xs:element name="NetAmt" msprop:Generator_ColumnVarNameInTable="columnNetAmt" msprop:Generator_ColumnPropNameInRow="NetAmt" msprop:Generator_ColumnPropNameInTable="NetAmtColumn" msprop:Generator_UserColumnName="NetAmt" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

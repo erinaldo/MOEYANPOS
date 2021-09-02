@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_SupplierReport" targetNamespace="http://tempuri.org/DS_SupplierReport.xsd" xmlns:mstns="http://tempuri.org/DS_SupplierReport.xsd" xmlns="http://tempuri.org/DS_SupplierReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_SupplierReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_SupplierReport" msprop:Generator_UserDSName="DS_SupplierReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DS_SupplierReport" msprop:Generator_TableClassName="DS_SupplierReportDataTable" msprop:Generator_TableVarName="tableDS_SupplierReport" msprop:Generator_TablePropName="_DS_SupplierReport" msprop:Generator_RowDeletingName="DS_SupplierReportRowDeleting" msprop:Generator_UserTableName="DS_SupplierReport" msprop:Generator_RowChangingName="DS_SupplierReportRowChanging" msprop:Generator_RowEvHandlerName="DS_SupplierReportRowChangeEventHandler" msprop:Generator_RowDeletedName="DS_SupplierReportRowDeleted" msprop:Generator_RowEvArgName="DS_SupplierReportRowChangeEvent" msprop:Generator_RowChangedName="DS_SupplierReportRowChanged" msprop:Generator_RowClassName="DS_SupplierReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SupplierID" msprop:Generator_ColumnVarNameInTable="columnSupplierID" msprop:Generator_ColumnPropNameInRow="SupplierID" msprop:Generator_ColumnPropNameInTable="SupplierIDColumn" msprop:Generator_UserColumnName="SupplierID" type="xs:string" minOccurs="0" />
+              <xs:element name="SupplierName" msprop:Generator_ColumnVarNameInTable="columnSupplierName" msprop:Generator_ColumnPropNameInRow="SupplierName" msprop:Generator_ColumnPropNameInTable="SupplierNameColumn" msprop:Generator_UserColumnName="SupplierName" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_UserColumnName="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="EMail" msprop:Generator_ColumnVarNameInTable="columnEMail" msprop:Generator_ColumnPropNameInRow="EMail" msprop:Generator_ColumnPropNameInTable="EMailColumn" msprop:Generator_UserColumnName="EMail" type="xs:string" minOccurs="0" />
+              <xs:element name="Township" msprop:Generator_ColumnVarNameInTable="columnTownship" msprop:Generator_ColumnPropNameInRow="Township" msprop:Generator_ColumnPropNameInTable="TownshipColumn" msprop:Generator_UserColumnName="Township" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditLimit" msprop:Generator_ColumnVarNameInTable="columnCreditLimit" msprop:Generator_ColumnPropNameInRow="CreditLimit" msprop:Generator_ColumnPropNameInTable="CreditLimitColumn" msprop:Generator_UserColumnName="CreditLimit" type="xs:string" minOccurs="0" />
+              <xs:element name="IsCash" msprop:Generator_ColumnVarNameInTable="columnIsCash" msprop:Generator_ColumnPropNameInRow="IsCash" msprop:Generator_ColumnPropNameInTable="IsCashColumn" msprop:Generator_UserColumnName="IsCash" type="xs:string" minOccurs="0" />
+              <xs:element name="IsCredit" msprop:Generator_ColumnVarNameInTable="columnIsCredit" msprop:Generator_ColumnPropNameInRow="IsCredit" msprop:Generator_ColumnPropNameInTable="IsCreditColumn" msprop:Generator_UserColumnName="IsCredit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

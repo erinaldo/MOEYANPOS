@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_SystemSetting" targetNamespace="http://tempuri.org/DS_SystemSetting.xsd" xmlns:mstns="http://tempuri.org/DS_SystemSetting.xsd" xmlns="http://tempuri.org/DS_SystemSetting.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_SystemSetting" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_SystemSetting" msprop:Generator_UserDSName="DS_SystemSetting">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DS_SystemSetting" msprop:Generator_TableClassName="DS_SystemSettingDataTable" msprop:Generator_TableVarName="tableDS_SystemSetting" msprop:Generator_TablePropName="_DS_SystemSetting" msprop:Generator_RowDeletingName="DS_SystemSettingRowDeleting" msprop:Generator_UserTableName="DS_SystemSetting" msprop:Generator_RowChangingName="DS_SystemSettingRowChanging" msprop:Generator_RowEvHandlerName="DS_SystemSettingRowChangeEventHandler" msprop:Generator_RowDeletedName="DS_SystemSettingRowDeleted" msprop:Generator_RowEvArgName="DS_SystemSettingRowChangeEvent" msprop:Generator_RowChangedName="DS_SystemSettingRowChanged" msprop:Generator_RowClassName="DS_SystemSettingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CompanyID" msprop:Generator_ColumnVarNameInTable="columnCompanyID" msprop:Generator_ColumnPropNameInRow="CompanyID" msprop:Generator_ColumnPropNameInTable="CompanyIDColumn" msprop:Generator_UserColumnName="CompanyID" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyName" msprop:Generator_ColumnVarNameInTable="columnCompanyName" msprop:Generator_ColumnPropNameInRow="CompanyName" msprop:Generator_ColumnPropNameInTable="CompanyNameColumn" msprop:Generator_UserColumnName="CompanyName" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="PhoneNo" msprop:Generator_ColumnVarNameInTable="columnPhoneNo" msprop:Generator_ColumnPropNameInRow="PhoneNo" msprop:Generator_ColumnPropNameInTable="PhoneNoColumn" msprop:Generator_UserColumnName="PhoneNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Web" msprop:Generator_ColumnVarNameInTable="columnWeb" msprop:Generator_ColumnPropNameInRow="Web" msprop:Generator_ColumnPropNameInTable="WebColumn" msprop:Generator_UserColumnName="Web" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="PrinterSlip" msprop:Generator_ColumnVarNameInTable="columnPrinterSlip" msprop:Generator_ColumnPropNameInRow="PrinterSlip" msprop:Generator_ColumnPropNameInTable="PrinterSlipColumn" msprop:Generator_UserColumnName="PrinterSlip" type="xs:string" minOccurs="0" />
+              <xs:element name="PrinterVoucher" msprop:Generator_ColumnVarNameInTable="columnPrinterVoucher" msprop:Generator_ColumnPropNameInRow="PrinterVoucher" msprop:Generator_ColumnPropNameInTable="PrinterVoucherColumn" msprop:Generator_UserColumnName="PrinterVoucher" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SP_SaleReturnItemTotal" targetNamespace="http://tempuri.org/SP_SaleReturnItemTotal.xsd" xmlns:mstns="http://tempuri.org/SP_SaleReturnItemTotal.xsd" xmlns="http://tempuri.org/SP_SaleReturnItemTotal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SP_SaleReturnItemTotal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SP_SaleReturnItemTotal" msprop:Generator_UserDSName="SP_SaleReturnItemTotal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SP_SaleReturnItemTotal" msprop:Generator_TableClassName="SP_SaleReturnItemTotalDataTable" msprop:Generator_TableVarName="tableSP_SaleReturnItemTotal" msprop:Generator_TablePropName="_SP_SaleReturnItemTotal" msprop:Generator_RowDeletingName="SP_SaleReturnItemTotalRowDeleting" msprop:Generator_RowChangingName="SP_SaleReturnItemTotalRowChanging" msprop:Generator_RowEvHandlerName="SP_SaleReturnItemTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_SaleReturnItemTotalRowDeleted" msprop:Generator_UserTableName="SP_SaleReturnItemTotal" msprop:Generator_RowChangedName="SP_SaleReturnItemTotalRowChanged" msprop:Generator_RowEvArgName="SP_SaleReturnItemTotalRowChangeEvent" msprop:Generator_RowClassName="SP_SaleReturnItemTotalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="SalePrice" msprop:Generator_ColumnVarNameInTable="columnSalePrice" msprop:Generator_ColumnPropNameInRow="SalePrice" msprop:Generator_ColumnPropNameInTable="SalePriceColumn" msprop:Generator_UserColumnName="SalePrice" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

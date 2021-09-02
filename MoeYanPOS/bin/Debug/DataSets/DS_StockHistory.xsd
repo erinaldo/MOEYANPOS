@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_StockHistory" targetNamespace="http://tempuri.org/DS_StockHistory.xsd" xmlns:mstns="http://tempuri.org/DS_StockHistory.xsd" xmlns="http://tempuri.org/DS_StockHistory.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_StockHistory" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_StockHistory" msprop:Generator_UserDSName="DS_StockHistory">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DS_StockHistory" msprop:Generator_TableClassName="DS_StockHistoryDataTable" msprop:Generator_TableVarName="tableDS_StockHistory" msprop:Generator_RowChangedName="DS_StockHistoryRowChanged" msprop:Generator_TablePropName="_DS_StockHistory" msprop:Generator_RowDeletingName="DS_StockHistoryRowDeleting" msprop:Generator_RowChangingName="DS_StockHistoryRowChanging" msprop:Generator_RowEvHandlerName="DS_StockHistoryRowChangeEventHandler" msprop:Generator_RowDeletedName="DS_StockHistoryRowDeleted" msprop:Generator_RowClassName="DS_StockHistoryRow" msprop:Generator_UserTableName="DS_StockHistory" msprop:Generator_RowEvArgName="DS_StockHistoryRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="OpeningQty" msprop:Generator_ColumnVarNameInTable="columnOpeningQty" msprop:Generator_ColumnPropNameInRow="OpeningQty" msprop:Generator_ColumnPropNameInTable="OpeningQtyColumn" msprop:Generator_UserColumnName="OpeningQty" type="xs:int" minOccurs="0" />
+              <xs:element name="SaleQty" msprop:Generator_ColumnVarNameInTable="columnSaleQty" msprop:Generator_ColumnPropNameInRow="SaleQty" msprop:Generator_ColumnPropNameInTable="SaleQtyColumn" msprop:Generator_UserColumnName="SaleQty" type="xs:int" minOccurs="0" />
+              <xs:element name="PurchaseQty" msprop:Generator_ColumnVarNameInTable="columnPurchaseQty" msprop:Generator_ColumnPropNameInRow="PurchaseQty" msprop:Generator_ColumnPropNameInTable="PurchaseQtyColumn" msprop:Generator_UserColumnName="PurchaseQty" type="xs:int" minOccurs="0" />
+              <xs:element name="AdjustmentQty" msprop:Generator_ColumnVarNameInTable="columnAdjustmentQty" msprop:Generator_ColumnPropNameInRow="AdjustmentQty" msprop:Generator_ColumnPropNameInTable="AdjustmentQtyColumn" msprop:Generator_UserColumnName="AdjustmentQty" type="xs:int" minOccurs="0" />
+              <xs:element name="SaleReturnQty" msprop:Generator_ColumnVarNameInTable="columnSaleReturnQty" msprop:Generator_ColumnPropNameInRow="SaleReturnQty" msprop:Generator_ColumnPropNameInTable="SaleReturnQtyColumn" msprop:Generator_UserColumnName="SaleReturnQty" type="xs:int" minOccurs="0" />
+              <xs:element name="StockTransferQty" msprop:Generator_ColumnVarNameInTable="columnStockTransferQty" msprop:Generator_ColumnPropNameInRow="StockTransferQty" msprop:Generator_ColumnPropNameInTable="StockTransferQtyColumn" msprop:Generator_UserColumnName="StockTransferQty" type="xs:int" minOccurs="0" />
+              <xs:element name="ClosingQty" msprop:Generator_ColumnVarNameInTable="columnClosingQty" msprop:Generator_ColumnPropNameInRow="ClosingQty" msprop:Generator_ColumnPropNameInTable="ClosingQtyColumn" msprop:Generator_UserColumnName="ClosingQty" type="xs:int" minOccurs="0" />
+              <xs:element name="NameEng" msprop:Generator_ColumnVarNameInTable="columnNameEng" msprop:Generator_ColumnPropNameInRow="NameEng" msprop:Generator_ColumnPropNameInTable="NameEngColumn" msprop:Generator_UserColumnName="NameEng" type="xs:string" minOccurs="0" />
+              <xs:element name="StockTransferReceiveQty" msprop:Generator_ColumnVarNameInTable="columnStockTransferReceiveQty" msprop:Generator_ColumnPropNameInRow="StockTransferReceiveQty" msprop:Generator_ColumnPropNameInTable="StockTransferReceiveQtyColumn" msprop:Generator_UserColumnName="StockTransferReceiveQty" type="xs:int" minOccurs="0" />
+              <xs:element name="AdjustmentReceiveQty" msprop:Generator_ColumnVarNameInTable="columnAdjustmentReceiveQty" msprop:Generator_ColumnPropNameInRow="AdjustmentReceiveQty" msprop:Generator_ColumnPropNameInTable="AdjustmentReceiveQtyColumn" msprop:Generator_UserColumnName="AdjustmentReceiveQty" type="xs:int" minOccurs="0" />
+              <xs:element name="NameMM" msprop:Generator_ColumnVarNameInTable="columnNameMM" msprop:Generator_ColumnPropNameInRow="NameMM" msprop:Generator_ColumnPropNameInTable="NameMMColumn" msprop:Generator_UserColumnName="NameMM" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseReturnQty" msprop:Generator_ColumnVarNameInTable="columnPurchaseReturnQty" msprop:Generator_ColumnPropNameInRow="PurchaseReturnQty" msprop:Generator_ColumnPropNameInTable="PurchaseReturnQtyColumn" msprop:Generator_UserColumnName="PurchaseReturnQty" type="xs:int" minOccurs="0" />
+              <xs:element name="UnitQty" msprop:Generator_ColumnVarNameInTable="columnUnitQty" msprop:Generator_ColumnPropNameInRow="UnitQty" msprop:Generator_ColumnPropNameInTable="UnitQtyColumn" msprop:Generator_UserColumnName="UnitQty" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
